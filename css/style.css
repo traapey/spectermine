@@ -1,0 +1,257 @@
+/* fontes */
+@import url('https://fonts.googleapis.com/css?family=Muli:200,300,400,500,600,700,800,900&amp;display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates:100,200,300,400,500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+
+
+/* geral */
+body {
+  background-color: #202020; 
+  -webkit-touch-callout: none;  		
+  -webkit-user-select: none;    		
+  -khtml-user-select: none;     		
+  -moz-user-select: none;       		
+  -ms-user-select: none;        		
+  user-select: none;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+
+.sg-divisor {
+  width: 100%;
+}
+
+.sg-divisor>svg {
+  display: block;
+}
+
+
+/* navbar */
+
+.sg-navbar {
+ background: #242424;
+}
+
+.sg-logo {
+	color: #fff !important;
+	font-family: 'Montserrat Alternates';
+	font-weight: bold;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.store {
+  font-weight: 350;
+}
+
+.sg-button {
+	color: #fff;
+	font-size: 22px;
+}
+
+.sg-items {
+	font-family: Muli;
+	font-weight: bold;
+	text-align: center !important;
+	color: #fff !important;
+	transition: 0.4s;
+}
+
+
+
+/* header */
+
+.sg-header {
+  background: linear-gradient(to right, #9A48D6, #AE5DE9);
+}
+
+.sg-skin {
+	margin-left: -75px;
+  margin-top: 140px;
+	width: 600px;
+}
+
+.sg-description {
+	font-family: Muli;
+	font-weight: bold;
+	color: #fff;
+	text-align: left;
+	font-size: 32px;
+	margin-top: 150px;
+}
+
+.sg-divisor {
+  margin-top: -100px;
+  width: 100%;
+}
+
+.sg-divisor>svg {
+	display: block;
+}
+
+/* sobre */
+
+.sg-sobre {
+ margin-top: -130px;
+}
+
+.sg-cards {
+	justify-content: center;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+	background-color: #242424;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  transition: 0.3s all;
+  box-shadow: 6px 6px 30px rgba(168, 167, 167, 0.479);
+}
+
+.sg-cards:hover {
+  border-radius: 10px;
+  box-shadow: RGB(128, 0, 128);
+  transition: 0.4s;
+}
+
+.sg-icon {
+	font-size: 25px;
+	margin-bottom: 15px;
+	color: #FAFAFA;
+}
+
+.sg-title {
+	font-weight: bold;
+	font-family: Muli;
+}
+
+.sg-text {
+	font-family: Muli;
+	font-size: 10px;
+  padding-bottom: 15px;
+}
+
+/* Main */
+.card-products {
+  background-color: #242424;
+  color: #fff;
+  text-align: center;
+   transition: 0.4s;
+  margin-bottom: 130px;
+}
+
+.card-products:hover {
+  border-radius: 5px;
+  transition: 0.3s all;
+  box-shadow: 6px 6px 30px RGB(128, 0, 128);
+}
+
+.sg-button-buy {
+  margin-top: 20px !important;
+  border: 0px;
+  border: 1px solid #A4A4A4;
+  padding: 10px 35px;
+  background: transition;
+  color: #fff !important;
+  cursor: pointer;
+  text-decoration: none !important;
+  font-family: Muli;
+  font-weight: bold;
+  transition: 0.4s;
+}
+
+.img-edit {
+  width: 230px !important;
+  margin-top: -100px;
+}
+
+.edit {
+  margin-top: -135px !important;
+  padding-bottom: 0px !important;
+}
+
+.netflix h3{
+  margin-top: -75px !important;
+}
+
+.spotify h3 {
+  margin-top: -35px !important;
+}
+
+
+
+
+/* Footer */
+
+.sg-footer {
+  background: #242424;
+  color: #fff;
+  margin-top: 50px;
+}
+.sg-footer-link {
+  color: #fff;
+  transition: 0.3s;
+  text-decoration: none !important;
+}
+
+.sg-footer-link:hover {
+  color: #940e0a;
+  transition: 0.4s;
+}
+
+
+
+@media screen and (max-width: 992px) {
+  .sg-sobre {
+   margin-top: 90px;
+  }
+   .sg-description {
+	 margin-top: 100px;
+  }
+  .sg-skin {
+   display: none;  
+  }
+  .sg-divisor {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 992px) {
+    .mobileMenu {
+      -webkit-transform: translateX(-100%);
+              transform: translateX(-100%);
+      position: fixed;
+      top: 20px;
+      bottom: 0px;
+      margin: auto;
+      left: 0px;
+      -webkit-transition: all ease 0.25s;
+      transition: all ease 0.25s;
+      background: #202020
+    }
+    .mobileMenu.open {
+      -webkit-transform: translateX(0%);
+              transform: translateX(0%);
+    }
+    .mobileMenu .navbar-nav {
+      overflow-y: auto;
+    }
+    .overlay {
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      background-color: rgba(0, 0, 0, 0.5);
+      display: none;
+    }
+    .overlay.open {
+      display: block;
+      z-index: 1029;
+    }
+  }
+ 
