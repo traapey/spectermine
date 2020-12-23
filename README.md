@@ -3,7 +3,7 @@ Olá, esse foi o site oficial criado para a loja SpecterMine na qual tive os dir
 
   <img align="right" alt="png" src="https://imgur.com/33ucDKj.png" />
 
-**Informações do BOT:**
+**Informações do SITE:**
 
 - 👨🏽‍💻 Site programado/criado totalmente em BACK-END;
 
